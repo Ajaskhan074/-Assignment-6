@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  box-shadow: 0 4px 4px 0 rgba(160, 159, 159, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height:300px;
+  background-color:#ffffff
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+  .continer{
+  padding: 10px 14px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+.prom p{
+    text-align: justify;
+}
+

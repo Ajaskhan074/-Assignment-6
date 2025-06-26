@@ -1,0 +1,78 @@
+.tab {
+  float: left;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  width: 30%;
+  height: 300px;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ffffff;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+#checkbox{
+      padding: 10px 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
+.slidecontainer {
+  width: 100%;}
+
+  .select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);}
+
+.custom-select{
+    float: left;
+  padding: 0px 12px;
+  border: px #ffffff
+  border-left: none;
+}
+.continer{
+  padding: 10px 14px;
+}
+
+ .card {
+  box-shadow: 0 4px 4px 0 rgba(160, 159, 159, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height:300px;
+  background-color:#ffffff
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+  .tablinks{
+     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    width: 20%;
+  }
+ .tablinks:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .full{
+   background-color: #ffffff;
+ }
+
+
+ 
